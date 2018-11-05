@@ -1,0 +1,15 @@
+<!-- simple ordered list wrapped in a div using EJS to dynamically render new list items -->
+
+<link href="/css/posts.css" rel="stylesheet" type="text/css">
+
+<div >
+  <ol>
+  <% for (let post of posts) { %>
+    
+    	<li>
+	      <div class="Title"><%= post.title %></div>
+	      <div class="Body">by <%= post.body %></div>
+      	</li>
+  <% } %>
+  </ol>
+</div>

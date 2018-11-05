@@ -1,0 +1,16 @@
+ol {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+li .Title {
+	font-size: 16px;
+	color: #3cb371;
+}
+
+li .Body {
+	font-size: 12px;
+	color: #4A4A4A;
+}
